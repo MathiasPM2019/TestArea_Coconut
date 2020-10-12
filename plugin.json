@@ -6,7 +6,7 @@
     "email"             :   "sales@plentymarkets.com",
     "phone"             :   "+49 561 98 681 100",
     "description"       :   "A Coconut theme for Ceres 3.",
-    "namespace"         :   "CeresCoconut",
+    "namespace"         :   "TestArea_Coconut",
     "author"            :   "plentysystems AG",
     "type"              :   "theme",
     "require"           :   {
