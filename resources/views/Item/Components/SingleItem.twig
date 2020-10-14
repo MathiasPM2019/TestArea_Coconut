@@ -8,7 +8,7 @@
     <div>
         <slot name="default" :getDataField="getDataField" :getFilteredDataField="getFilteredDataField">
             <div class="single container-max page-content">
-            <div class="small">{% include "CeresCoconut::PageDesign.Partials.Header.BreadcrumbItem" %}</div>
+            <div class="small">{% include "TestAreaCoconut::PageDesign.Partials.Header.BreadcrumbItem" %}</div>
                 <div class="row mt-5 position-relative">
 
                     <div class="col-12 col-md-7" id="item-container">
@@ -17,12 +17,12 @@
 
                     <div class="col-12 col-md-5">
                         <div v-stick-in-parent data-sticky-container="#item-container">
-                            {% include "CeresCoconut::Item.Components.SingleItem.SingleItem_Details" %}
+                            {% include "TestAreaCoconut::Item.Components.SingleItem.SingleItem_Details" %}
                         </div>
                     </div>
 
                     <div style="border-top:10px solid red;" class="col-12 col-md-7">
-                        {% include "CeresCoconut::Item.Components.SingleItem.SingleItem_InformationTable" %}
+                        {% include "TestAreaCoconut::Item.Components.SingleItem.SingleItem_InformationTable" %}
                     </div>
 
                 </div>

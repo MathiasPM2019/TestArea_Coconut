@@ -1,13 +1,13 @@
 <?php
 
-namespace CeresCoconut\Containers;
+namespace TestAreaCoconut\Containers;
 
 use Plenty\Plugin\Templates\Twig;
 
-class CeresCoconutContainer
+class TestAreaCoconutContainer
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('CeresCoconut::Stylesheet');
+        return $twig->render('TestAreaCoconut::Stylesheet');
     }
 }

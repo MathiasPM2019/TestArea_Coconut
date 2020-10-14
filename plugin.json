@@ -6,32 +6,32 @@
     "email"             :   "sales@plentymarkets.com",
     "phone"             :   "+49 561 98 681 100",
     "description"       :   "A Coconut theme for Ceres 3.",
-    "namespace"         :   "CeresCoconut",
+    "namespace"         :   "TestAreaCoconut",
     "author"            :   "plentysystems AG",
     "type"              :   "theme",
     "require"           :   {
                                 "Ceres":">= 3.0.0"
                             },
-    "serviceProvider"   :   "CeresCoconut\\Providers\\CeresCoconutServiceProvider",
+    "serviceProvider"   :   "TestAreaCoconut\\Providers\\TestAreaCoconutServiceProvider",
     "dataProviders"     :
     [
         {
-            "key"           :"CeresCoconut\\Containers\\CeresCoconutContainer",
+            "key"           :"TestAreaCoconut\\Containers\\TestAreaCoconutContainer",
             "name"          :"Stylesheet",
             "description"   :"Add changes to the CSS file"
         },
         {
-            "key"           :"CeresCoconut\\Containers\\CeresCoconutItemListContainer1",
+            "key"           :"TestAreaCoconut\\Containers\\TestAreaCoconutItemListContainer1",
             "name"          :"First item list",
             "description"   :"Display a configurable list of items in your online store"
         },
         {
-            "key"           :"CeresCoconut\\Containers\\CeresCoconutItemListContainer2",
+            "key"           :"TestAreaCoconut\\Containers\\TestAreaCoconutItemListContainer2",
             "name"          :"Second item list",
             "description"   :"Display a configurable list of items in your online store"
         },
         {
-            "key"           :"CeresCoconut\\Containers\\CeresCoconutItemListContainer3",
+            "key"           :"TestAreaCoconut\\Containers\\TestAreaCoconutItemListContainer3",
             "name"          :"Third item list",
             "description"   :"Display a configurable list of items in your online store"
         }
